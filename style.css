@@ -1,0 +1,82 @@
+#content {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+.books {
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+    padding-bottom: 2px;
+  }
+  
+  .books .search-field {
+    display: inline-block;
+    width: auto;
+    margin: 0px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .books .books-list {
+    padding: 0;
+    width: auto;
+    margin: 0px;
+  }
+  
+  .books .books-list .cbook {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: auto;
+    padding: 5px;
+    background-color: rgb(138, 138, 138);
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  
+  .cbook-description {
+      margin-right: 5px;
+      float: left;
+      line-height: 50px;
+      vertical-align: center;
+
+  }
+  
+  .book-name {
+    font-size: 20px;
+    padding-left: 5px;
+    float: left;
+    line-height: 50px;
+    vertical-align: center;
+    color: rgb(230, 230, 230);
+    margin-right: 5px;
+  }
+  
+  .book-author {
+    color: rgb(61, 61, 61);
+    padding-left: 5px;
+    float: left;
+    line-height: 50px;
+    vertical-align: center;
+    margin-right: 5px;
+  }
+
+  .book-id {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgba(52, 112, 241, 0.877);
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px;
+    color: rgb(212, 218, 247);
+    float: left;
+  }
+
+  .book-id:hover {
+    background-color: rgb(52, 112, 241);
+  }
