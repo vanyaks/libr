@@ -24,7 +24,7 @@
     margin: 0px;
   }
   
-  .books .books-list .cbook {
+  .books .books-list .book {
     display: flex;
     align-items: center;
     font-family: sans-serif;
@@ -36,7 +36,7 @@
     margin-top: 0px;
   }
   
-  .cbook-description {
+  .book-description {
       margin-right: 5px;
       float: left;
       line-height: 50px;
